@@ -1,0 +1,10 @@
+﻿  DynamicArray.cpp
+D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(10,9): warning C4477: 'printf' : 서식 문자열 '%8.8x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(11,9): warning C4477: 'printf' : 서식 문자열 '%8.8x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(12,9): warning C4477: 'printf' : 서식 문자열 '%8.8x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(13,9): warning C4477: 'printf' : 서식 문자열 '%8.8x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(14,9): warning C4477: 'printf' : 서식 문자열 '%8.8x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(15,9): warning C4477: 'printf' : 서식 문자열 '%8.8x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(16,9): warning C4477: 'printf' : 서식 문자열 '%8.8x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(17,9): warning C4477: 'printf' : 서식 문자열 '%8.8x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+  DataStructure.vcxproj -> D:\D_Main\Atens\Practice\DataStructure\Debug\DataStructure.exe
