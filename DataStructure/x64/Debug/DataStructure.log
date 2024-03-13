@@ -1,18 +1,2 @@
-﻿  DynamicArray.cpp
-D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(11,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-  D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(11,9):
-  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-  
-D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(12,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-  D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(12,9):
-  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-  
-D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(13,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'unsigned __int64'입니다.
-  D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(13,9):
-  서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
-  D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(13,9):
-  서식 문자열에서 '%Id'을(를) 사용하는 것이 좋습니다.
-  D:\D_Main\Atens\Practice\DataStructure\DataStructure\DynamicArray.cpp(13,9):
-  서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
-  
-  DataStructure.vcxproj -> D:\D_Main\Atens\Practice\DataStructure\x64\Debug\DataStructure.exe
+﻿  Stack.cpp
+  DataStructure.vcxproj -> D:\D_Main\Atens\DataStructures_And_Algorithms\x64\Debug\DataStructure.exe

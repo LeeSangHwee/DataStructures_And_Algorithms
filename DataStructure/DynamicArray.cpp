@@ -11,5 +11,6 @@ void funcArray(int n)
 int main()
 {
 	funcArray(6);
+	return 0;
 }
 
