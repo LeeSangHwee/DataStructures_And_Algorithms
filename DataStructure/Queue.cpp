@@ -20,11 +20,6 @@ Node* DeQuque(Node* Front);
 
 int main()
 {
-
-}
-
-int main()
-{
 	Node *Front = NULL, *Rear = NULL;
 	bool ProgramExit = false;
 
@@ -78,11 +73,15 @@ Node* EnQuque(Node* Rear)
 
 Node* DeQuque(Node* Front)
 {
-	printf("DeQuque : %d\n", Front->Data);
-	free(Front);
+	Node* TempFront = NULL;
 
-	if(Front == NULL)
+	if (Front == NULL)
 		printf("삭제할 데이터가 없습니다.\n");
-
-	return TempTop;
+	else
+	{
+		printf("DeQuque : %d\n", Front->Data);
+		TempFront = Front->Next;
+		free(Front);
+	}
+	return TempFront;
 }
