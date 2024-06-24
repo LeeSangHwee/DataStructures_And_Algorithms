@@ -36,7 +36,7 @@
     <ClCompile Include="Stack.cpp">
       <Filter>소스 파일\02_Stack</Filter>
     </ClCompile>
-    <ClCompile Include="Queue.cpp">
+    <ClCompile Include="LinearQueue.cpp">
       <Filter>소스 파일\03_Queue</Filter>
     </ClCompile>
   </ItemGroup>
