@@ -25,6 +25,12 @@
     <Filter Include="소스 파일\04_List">
       <UniqueIdentifier>{3db40182-3e8d-4699-b2bf-62f235bf96d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\00_Pointer">
+      <UniqueIdentifier>{cfcd22f8-7216-4fdb-8632-82e34aa83f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99_Test">
+      <UniqueIdentifier>{57674e15-b5c6-4918-af8b-0c35b3ab612c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StaticArray.cpp">
@@ -38,6 +44,15 @@
     </ClCompile>
     <ClCompile Include="LinearQueue.cpp">
       <Filter>소스 파일\03_Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayList.cpp">
+      <Filter>소스 파일\04_List</Filter>
+    </ClCompile>
+    <ClCompile Include="Call_By.cpp">
+      <Filter>소스 파일\00_Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="TEST.cpp">
+      <Filter>소스 파일\99_Test</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
