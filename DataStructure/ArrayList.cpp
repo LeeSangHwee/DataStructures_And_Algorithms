@@ -25,7 +25,7 @@ typedef struct ArrayList
 
 int SelectUI();
 ArrayList* CreateArray(int maxLength);
-void DeleteArray(ArrayList* Arraylist);
+ArrayList* DeleteArray(ArrayList* Arraylist);
 void InsertElement(ArrayList* Arraylist);
 void DeleteElement(ArrayList* Arraylist);
 void PrintElement(ArrayList* Arraylist);
@@ -66,7 +66,7 @@ int main()
 			break;
 		case eDELETE_ARRAY:
 			if (Arraylist != NULL)
-				DeleteArray(Arraylist);
+				Arraylist = DeleteArray(Arraylist);
 			else
 			{
 				printf("삭제할 배열이 존재하지 않습니다.\n");
@@ -117,7 +117,8 @@ int main()
 				PrintElement(Arraylist);
 			break;
 		case eEXIT:
-			DeleteArray(Arraylist);
+			if (Arraylist != NULL)
+				DeleteArray(Arraylist);
 			ProgramExit = true;
 			break;
 		default:break;
@@ -132,7 +133,7 @@ int SelectUI()
 {
 	int input = 0;
 
-	printf("====Stack System====\n");
+	printf("====Array List System====\n");
 	printf("1. Create Array\n");
 	printf("2. Delete Array\n");
 	printf("3. Insert Element\n");
@@ -155,12 +156,12 @@ ArrayList* CreateArray(int maxLength)
 	return NewArrayList;
 }
 
-void DeleteArray(ArrayList* Arraylist)
+ArrayList* DeleteArray(ArrayList* Arraylist)
 {
 	delete[] Arraylist->pElement;
 	delete Arraylist;
 
-	Arraylist = NULL;
+	return NULL;
 }
 
 void InsertElement(ArrayList* Arraylist)
@@ -224,9 +225,9 @@ void PrintElement(ArrayList* Arraylist)
 		printf("%d", Arraylist->pElement[i].Data);
 
 		if ((i + 1) != Arraylist->currentLength)
-			printf(", ");
-		else printf("\n");
+			printf(", ");		
 	}
+	printf("\n");
 	system("pause");
 	system("cls");
 }

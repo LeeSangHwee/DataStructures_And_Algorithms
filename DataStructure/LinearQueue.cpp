@@ -53,7 +53,7 @@ int SelectUI()
 {
 	int input = 0;
 
-	printf("====Stack System====\n");
+	printf("====Linear Queue System====\n");
 	printf("1. EnQuque\n");
 	printf("2. DeQuque\n");
 	printf("3. Exit\n");

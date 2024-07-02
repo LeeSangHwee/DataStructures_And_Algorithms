@@ -1,4 +1,2 @@
-﻿  ArrayList.cpp
-D:\D_Main\Atens\DataStructures_And_Algorithms\DataStructure\ArrayList.cpp(17,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'ArrayListNode' 왼쪽은 무시됩니다.
-D:\D_Main\Atens\DataStructures_And_Algorithms\DataStructure\ArrayList.cpp(24,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'ArrayList' 왼쪽은 무시됩니다.
+﻿  DoublyLinkedList.cpp
   DataStructure.vcxproj -> D:\D_Main\Atens\DataStructures_And_Algorithms\x64\Debug\DataStructure.exe

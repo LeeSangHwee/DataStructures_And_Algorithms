@@ -2,38 +2,16 @@
 #include "stdlib.h"
 #include "Windows.h"
 
-void testcreate(int i2, int* j2)
+int* testfunc(int* num1)
 {
-	i2 = 1;
-	j2 = new int;
-}
+	int* num2;
 
-void testfunc(int* pnum)
-{
-	
+	return num2;
 }
 
 int main()
 {
-	//int i = 0;
-	//int* j = new int;
-	//char* t = new char;
-	//
-	//testcreate(i, j);
 
 
-	int num = 100;
-	int* ptr = &num;
-	int& ref = num;
-
-	printf("%d", num);
-	printf("%d", &num);
-
-	printf("%d", ref);
-	printf("%d", &ref);
-
-	printf("%d", ptr);
-	printf("%d", *ptr);
-	printf("%d", &ptr);
 	return 0;
 }
