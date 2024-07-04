@@ -13,55 +13,70 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\01_Array">
-      <UniqueIdentifier>{94a1e4d0-3812-468f-9f54-4cc4973442ed}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\02_Stack">
-      <UniqueIdentifier>{40d6ee26-1df7-4cf7-8d3a-c9dfd4503b8d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\03_Queue">
-      <UniqueIdentifier>{ed67e027-91e8-4570-b500-160db1e38f1e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\04_List">
-      <UniqueIdentifier>{3db40182-3e8d-4699-b2bf-62f235bf96d9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\00_Pointer">
-      <UniqueIdentifier>{cfcd22f8-7216-4fdb-8632-82e34aa83f3b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\99_Test">
       <UniqueIdentifier>{57674e15-b5c6-4918-af8b-0c35b3ab612c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_Language">
+      <UniqueIdentifier>{ee581739-c0cd-4346-9330-caf29ca65833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_Language\01_Pointer">
+      <UniqueIdentifier>{cfcd22f8-7216-4fdb-8632-82e34aa83f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_Data_Structure">
+      <UniqueIdentifier>{bb604c1f-a2e9-4a24-a2d1-ff198433743c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_Data_Structure\04_List">
+      <UniqueIdentifier>{3db40182-3e8d-4699-b2bf-62f235bf96d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_Data_Structure\03_Queue">
+      <UniqueIdentifier>{ed67e027-91e8-4570-b500-160db1e38f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_Data_Structure\02_Stack">
+      <UniqueIdentifier>{40d6ee26-1df7-4cf7-8d3a-c9dfd4503b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_Data_Structure\01_Array">
+      <UniqueIdentifier>{94a1e4d0-3812-468f-9f54-4cc4973442ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_Algorithm">
+      <UniqueIdentifier>{8333fb28-e218-48c0-8daa-2b2ae9ae2feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_Algorithm\01_Goldbach_s_conjecture">
+      <UniqueIdentifier>{ffea7fc9-5151-45cf-8019-0f284bb10545}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StaticArray.cpp">
-      <Filter>소스 파일\01_Array</Filter>
+      <Filter>소스 파일\02_Data_Structure\01_Array</Filter>
     </ClCompile>
     <ClCompile Include="DynamicArray.cpp">
-      <Filter>소스 파일\01_Array</Filter>
+      <Filter>소스 파일\02_Data_Structure\01_Array</Filter>
     </ClCompile>
     <ClCompile Include="Stack.cpp">
-      <Filter>소스 파일\02_Stack</Filter>
+      <Filter>소스 파일\02_Data_Structure\02_Stack</Filter>
     </ClCompile>
     <ClCompile Include="LinearQueue.cpp">
-      <Filter>소스 파일\03_Queue</Filter>
+      <Filter>소스 파일\02_Data_Structure\03_Queue</Filter>
     </ClCompile>
     <ClCompile Include="ArrayList.cpp">
-      <Filter>소스 파일\04_List</Filter>
+      <Filter>소스 파일\02_Data_Structure\04_List</Filter>
     </ClCompile>
     <ClCompile Include="Call_By.cpp">
-      <Filter>소스 파일\00_Pointer</Filter>
+      <Filter>소스 파일\01_Language\01_Pointer</Filter>
     </ClCompile>
     <ClCompile Include="TEST.cpp">
       <Filter>소스 파일\99_Test</Filter>
     </ClCompile>
     <ClCompile Include="SinglyLinkedList.cpp">
-      <Filter>소스 파일\04_List</Filter>
+      <Filter>소스 파일\02_Data_Structure\04_List</Filter>
     </ClCompile>
     <ClCompile Include="DoublyLinkedList.cpp">
-      <Filter>소스 파일\04_List</Filter>
+      <Filter>소스 파일\02_Data_Structure\04_List</Filter>
     </ClCompile>
     <ClCompile Include="CircularLinkedList.cpp">
-      <Filter>소스 파일\04_List</Filter>
+      <Filter>소스 파일\02_Data_Structure\04_List</Filter>
+    </ClCompile>
+    <ClCompile Include="Goldbach_s_conjecture.cpp">
+      <Filter>소스 파일\03_Algorithm\01_Goldbach_s_conjecture</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
